@@ -17,4 +17,5 @@ navigation:
   - /tutorials/wurstbeginner
   - /tutorials/legacymaps
   - /tutorials/wurst_for_vjass_users
+  - /tutorials/wurst_for_the_jass_curious
 ---
