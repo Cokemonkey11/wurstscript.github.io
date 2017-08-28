@@ -4,6 +4,7 @@ sections:
 - What is JASS
 - How does wurst relate to JASS
 - Who might want to learn JASS/wurst
+- Learn Wurst, or Learn JASS
 - Wc3 Scripting for Beginners
 ---
 
@@ -40,14 +41,15 @@ Try to keep the following very abstract ideas in mind as you follow along.
 * Anyone who considers writing code at all
 * Anyone who wants to make wc3 custom games
 
+## Learn Wurst, or Learn JASS
+
+* Much better to learn wurst first - avoids spending time on lots of things that shouldn't be used like `location`
+* Wurst more prescriptive - actually that's more beginner-friendly
+* For much the same reason that JASS users don't care how `CreateUnit()` works on the inside, wurst users don't have to know how `print()` works at the JASS level.
+* Less magic - never learn why `gg_trg_` is a thing.
+
 ## Wc3 Scripting for Beginners
 
 * Packages, init, variables/types
 * Leaks: units, strings, ints
 * stl, vec2, loops, groups
-
-## Putting it all together: a minimap
-
-* Loop through the active players, create altar, farm, tavern; set gold and lumber
-* Defeat player when all units dead
-* Victory player when all enemies dead
